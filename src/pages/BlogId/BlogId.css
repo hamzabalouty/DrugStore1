@@ -1,0 +1,48 @@
+/* START RWD */
+@media screen and (max-width: 767px){
+    .readpage-form-top,
+    .readpage-gap{
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+    .readpage-progress{
+        display: none;
+    }
+    .readpage-body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .readpage-imgs{
+        margin: 10px 0px;
+        width: 90%;
+    }
+    .readpage-image{
+        width: 90%;
+    }
+    .readpage-imgs img{
+        width: 100%;
+    }
+    .readpage-gap-left,
+    .readpage-gap-right{
+        width: 90%;
+    }
+    .readpage-form{
+        width: 90%;
+    }
+    .readpage-form-top input{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .readpage-form-top{
+        margin: 80px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .readpage-form textarea{
+        margin-top: 70px;
+    }
+}
+/* END RWD */
